@@ -1,4 +1,4 @@
-// Type definitions for css-tree 1.0
+// Type definitions for css-tree 2.2
 // Project: https://github.com/csstree/csstree
 // Definitions by: Erik Källén <https://github.com/erik-kallen>
 //                 Jason Kratzer <https://github.com/pyoor>
@@ -705,8 +705,8 @@ export interface DSNodeToken {
  */
 export interface DSNodeTypeOpts {
     type: 'Range';
-    min: number | null;
-    max: number | null;
+    min: number | string | null;
+    max: number | string | null;
 }
 
 /**
